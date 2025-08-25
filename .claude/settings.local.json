@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go mod:*)",
+      "Bash(go get:*)",
+      "Bash(go test:*)",
+      "Bash(mkdir:*)",
+      "Bash(ginkgo bootstrap:*)",
+      "Bash(go install:*)",
+      "Bash(go run:*)",
+      "Bash(make test:*)",
+      "Bash(make:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "proxy_port": 7687,
+  "tenants": {
+    "tenant1": {
+      "host": "yunhorn187",
+      "port": 17687,
+      "username": "",
+      "password": ""
+    },
+    "tenant2": {
+      "host": "yunhorn187",
+      "port": 27687,
+      "username": "",
+      "password": ""
+    },
+    "production-tenant": {
+      "host": "prod-neo4j.example.com",
+      "port": 7687,
+      "username": "neo4j",
+      "password": "your-secure-password"
+    }
+  }
+}
